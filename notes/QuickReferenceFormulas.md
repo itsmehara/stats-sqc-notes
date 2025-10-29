@@ -39,18 +39,15 @@ The foundation of all control charts is the $3\sigma$ limit principle. The speci
 
     If $M$ is a sample statistic (like $\overline{X}$ or $R$) with mean $\mu_{M}$ and standard error $\sigma_{M}$:
 
-    $$
-    \mathbf{CL} = \mu_{M} \quad
-    $$
-    $$
-    \mathbf{UCL} = \mu_{M} + 3\sigma_{M} \quad
-    $$
-    $$
-    \mathbf{LCL} = \mu_{M} - 3\sigma_{M} \quad
-    $$
+    $\mathbf{CL} = \mu_{M} \quad$
+
+    $\mathbf{UCL} = \mu_{M} + 3\sigma_{M} \quad$
+
+    $\mathbf{LCL} = \mu_{M} - 3\sigma_{M} \quad$
+    
     (Note: If LCL is negative, it is usually taken as zero).
 
-2.  **$\overline{X}$-Chart Formulas (Using $\overline{R}$ as SD estimate)**
+3.  **$\overline{X}$-Chart Formulas (Using $\overline{R}$ as SD estimate)**
 
     These are used primarily when the true $\mu$ and $\sigma$ are unknown, and $\overline{R}$ is used to estimate $\sigma$ (common for $n<10$).
 
@@ -60,7 +57,7 @@ The foundation of all control charts is the $3\sigma$ limit principle. The speci
     | **UCL** | $UCL = \mathbf{\overline{\overline{X}} + A_{2}\overline{R}}$ | $A_{2}=\frac{3}{d_{2}\sqrt{n}}$ is a constant factor. | |
     | **LCL** | $LCL = \mathbf{\overline{\overline{X}} - A_{2}\overline{R}}$ | | |
 
-3.  **$\overline{X}$-Chart Formulas (Using $\overline{S}$ as SD estimate)**
+4.  **$\overline{X}$-Chart Formulas (Using $\overline{S}$ as SD estimate)**
 
     These are used when the true $\mu$ and $\sigma$ are unknown, and $\overline{S}$ is used to estimate $\sigma$ (common for $n \ge 10$).
 
@@ -70,7 +67,7 @@ The foundation of all control charts is the $3\sigma$ limit principle. The speci
     | **UCL** | $UCL = \mathbf{\overline{\overline{X}} + A_{3}\overline{S}}$ | $A_{3}=\frac{3}{c_{4}\sqrt{n}}$ is a constant factor. | |
     | **LCL** | $LCL = \mathbf{\overline{\overline{X}} - A_{3}\overline{S}}$ | | |
 
-4.  **R-Chart Formulas (For Variability Control, $\sigma$ unknown)**
+5.  **R-Chart Formulas (For Variability Control, $\sigma$ unknown)**
 
     The R-chart is typically used when $n<10$.
 
@@ -80,7 +77,7 @@ The foundation of all control charts is the $3\sigma$ limit principle. The speci
     | **UCL** | $UCL = \mathbf{D_{4}\overline{R}}$ | $D_{4}=(1+\frac{3d_{3}}{d_{2}})$ is a constant factor. | |
     | **LCL** | $LCL = \mathbf{D_{3}\overline{R}}$ | $D_{3}=(1-\frac{3d_{3}}{d_{2}})$ is a constant factor. | |
 
-5.  **S-Chart Formulas (For Variability Control, $\sigma$ unknown)**
+6.  **S-Chart Formulas (For Variability Control, $\sigma$ unknown)**
 
     The S-chart is typically used when $n \ge 10$.
 
