@@ -2,7 +2,10 @@ Here are comprehensive notes containing all the core formulas and summation nota
 related to the mean and variability concepts discussed in Unit 1 (Overview) and Unit 2 (Control Charts for Mean and Variation) of Block 1. 
 Keep these handy for your quick reference!
 
-
+-
+-
+-
+-
 -
 -
 -
