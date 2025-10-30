@@ -3,27 +3,26 @@ related to the mean and variability concepts discussed in Unit 1 (Overview) and 
 Keep these handy for your quick reference!
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
 
 ***
 
