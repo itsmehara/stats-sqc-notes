@@ -31,8 +31,6 @@ Keep these handy for your quick reference!
 -
 -
 -
--
--
 
 ***
 
